@@ -1,8 +1,8 @@
 def run():
-    a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
-    for i in range (a):
-        if (a[i] < 5):
-            print(a[i])
+    list_a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+    list_b = [i for i in list_a if i >= 5]
+    print(list_b)
+
 
 
 
